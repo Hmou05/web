@@ -1,0 +1,36 @@
+body {
+    padding-left: 10px;
+    height: 900px;
+    background-image:  linear-gradient(burlywood, #fff2d6);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+div {
+    border: 3px solid red;
+    width: fit-content;
+}
+#text, #textInput {
+    height: 30px;
+    width: 20em;
+    border-bottom: 3px solid blue;
+    padding-left: 10px;
+    font-weight: 600;
+    font-size: 14px;
+}
+#text {
+    background-color: #fff;
+    cursor: default;
+    text-align: left;
+    vertical-align: middle;
+    line-height: 30px;
+}
+#textInput {
+    border-style: none;
+}
+#textInput::selection {
+    background-color: black;
+    color: white;
+}
+#button {
+    visibility: hidden;
+}
